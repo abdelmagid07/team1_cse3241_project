@@ -30,7 +30,7 @@ public class InputHelper {
         return LocalDateTime.parse(readLine(prompt), DATE_TIME);
     }
 
-    /* Helper methods to allow user toedit existing values. Pressing Enter keeps the current value. */
+    /* Helper methods to prompt user to edit existing values. Pressing Enter keeps the current value. */
     public String editText(String label, String current) {
         String s = readLine(label + " [" + current + "]: ");
         if (s.isEmpty()) {
