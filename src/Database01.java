@@ -5,6 +5,11 @@ import java.util.List;
 Temporary "database" class for the project. 
 
 Stores everything using ArrayLists. In future checkpoints, this will be replaced with a real SQL database.
+
+Contains some helper methods aswell with functionality:
+- findCustomer method to search for a customer by user ID
+- findAsset method to search for an asset by serial number
+- licensePlateInUse method to check if a license plate is already used by another car
 */
 public class Database01 {
 
