@@ -4,6 +4,6 @@ Daniel Sher, Kevin Roback, Abdel Abdelmagid, Dylan Schrad
 
 ## Run
 
-Open the `project1` folder, open `src/Main.java`, and click Run above `main`.
+Open the `src` folder, open `Main.java`, and click Run above `main`.
 
 Type a menu number and press Enter. 
