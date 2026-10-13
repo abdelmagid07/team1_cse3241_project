@@ -2,14 +2,7 @@ import java.time.LocalDate; // Used for the warrantyExpiration attribute
 import java.util.Arrays; // Used for the STATUSES list
 import java.util.List;
 
-/* ASSET Class (superclass of ROBOT and CAR)
-
-ROBOT and CAR will inherit from this class, and implement the abstract methods. This class 
-contains the shared attributes and methods for all assets. This class is abstract, and 
-cannot be instantiated directly.
-
-Constructor and getter/setter methods are protected and can only be accessed by subclasses.
-*/
+/* ASSET Class (superclass of ROBOT and CAR)*/
 public abstract class Asset {
 
     /* Attributes */
